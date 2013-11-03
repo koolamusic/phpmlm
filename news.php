@@ -1,33 +1,39 @@
-<?
-require( "cek.php" );
+<?php
+require("cek.php");
 ?>
 
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
+<html>
+<head>
 <meta http-equiv="Content-Language" content="en-us">
-<title>.: NETWORK INDONESIA :.</title>
-<META content=Panjianom name=Author>
-<META 
-content="Dapatkan uang duit dollar atau penghasilan abadi tiap bulan dari MLM bisa juga gratis atau free." 
-name=Keywords>
-<META 
-content="tutorial situs dalam bahasa indonesia, membahas teknik-teknik mencari uang secara online melalui internet." 
-name=Description>
-<META http-equiv=robots content="index, follow">
-<META http-equiv=rating content=general>
-<META content="Microsoft FrontPage 5.0" name=GENERATOR></HEAD>
+<title>.: Your MLM Website :.</title>
+<meta content=Panjianom name=Author>
+<meta content="your keywords, your keywords here" name=Keywords>
+<meta content="your description here." name=Description>
+<meta http-equiv=robots content="index, follow">
+<meta http-equiv=rating content=general>
+</head>
 
-<STYLE>BODY {
-	SCROLLBAR-FACE-COLOR: #006699; SCROLLBAR-HIGHLIGHT-COLOR: #CC3300; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #006699; SCROLLBAR-ARROW-COLOR: #ffffff ; SCROLLBAR-TRACK-COLOR: #0099CC; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #848ea9}
+<style>
+body {
+    scrollbar-face-color: #006699;
+    scrollbar-highlight-color: #cc3300;
+    scrollbar-shadow-color: #000000;
+    scrollbar-3dlight-color: #006699;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-track-color: #0099cc;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-base-color: #848ea9;
+}
 .lnk1:hover {
-	COLOR: #0000fa; TEXT-DECORATION: none
+    color: #0000fa;
+    text-decoration: none;
 }
 .lnk:link {
-	COLOR: #ffff00; TEXT-DECORATION: none
+    color: #ffff00;
+    text-decoration: none;
 }
-
-</STYLE>
+</style>
 
 <body topmargin="0" leftmargin="0">
 
@@ -37,8 +43,8 @@ name=Description>
     <tr>
       <td>
       <p align="center">
-   
-      <? include "banner.php"; ?>
+
+      <img border="0" src="images/banner.jpg" width="780" height="154"></p>
       </td>
     </tr>
     <tr>
@@ -49,10 +55,10 @@ name=Description>
           <tr>
             <td width="207" valign="top">
             <p style="margin-top: 0; margin-bottom: 0" align="center">
-            <font face="Verdana" style="font-weight: 700" size="2" color="#000080">..:: 
+            <font face="Verdana" style="font-weight: 700" size="2" color="#000080">..::
             MENU UTAMA ::..</font></p>
             <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;
-            
+
             <? include "menu.php"; ?>
             </p>
             <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;</p>
@@ -73,7 +79,7 @@ name=Description>
               <tr>
                <td width="549">
                   <p align="center" style="margin-top: 0; margin-bottom: 0">
-                  <b> <font face="Verdana" size="5" color="#FF0000">News 
+                  <b> <font face="Verdana" size="5" color="#FF0000">News
             - Berita terbaru dari kami</font></b></p>
 
 
@@ -81,7 +87,7 @@ name=Description>
 
 
                   <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;
-                  
+
                    <?
 //require( "config.php" );
 
@@ -136,7 +142,7 @@ $qry = mysql_query("SELECT * FROM news ORDER BY user_id DESC LIMIT $start,$newsP
 
 if(mysql_num_rows($qry) > 0) {
 
-	
+
 	while($row = mysql_fetch_array($qry)) {
 	    echo "<p style=\"margin-top: 0; margin-bottom: 0\" align=\"justify\"><b><font face=\"Verdana\" font style=\"font-size: 8pt\" color=\"#000080\"> $row[judul]</font></b></p>\n";
 	    echo "<p style=\"margin-top: 0; margin-bottom: 0\" align=\"justify\"><i><font face=\"Verdana\" font style=\"font-size: 8pt\" color=\"#FF0000\"> $row[tanggal]</font></i></p>\n";
@@ -145,12 +151,12 @@ if(mysql_num_rows($qry) > 0) {
         echo "<hr color=\"#000000\" size=\"1\"></font></p>\n";
 	}
 
-	
+
 
 } else {
 	echo "<p align=\"center\"><font size=\"3\"><b>Maaf Belum Ada Berita terbaru dari kami !!!</b></font></p>\n";
 }
-  
+
 ?>
 
                   </p>
@@ -172,7 +178,7 @@ if(mysql_num_rows($qry) > 0) {
     <tr>
       <td bgcolor="#6D93A0">
       <p align="center" style="margin-top: 0; margin-bottom: 0">
-      <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Copyright (c) 
+      <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Copyright (c)
       2005 Nama Bisnis Anda</font></p>
       <p align="center" style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Powered by

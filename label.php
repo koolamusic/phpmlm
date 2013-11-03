@@ -1,16 +1,16 @@
-<?
+<?php
 
 //Variable server
 
-    $ADVT_NAME = "Team Bisnis Indonesia";   // Advertisement name
+    $ADVT_NAME = "Your Advertisement";   // Advertisement name
     /* DATEBASE CONFIGURATION */
 	$dbHost = "localhost";                              // Database host
-	$dbName = "mlm";                                  // Database name
+	$dbName = "IndoMLM";                                  // Database name
 	$dbUser = "root";                                   // Database user
-	$dbPasswd = "";                                     // Database password
-    $NAMA_WEB = "http://www.webanda.net";                 // Website name
-	$ADMIN_EMAIL = "admin@webanda.net";                // Admin's email
- 	$ADMIN_NAME1 = "Team Bisnis Indonesia";
+	$dbPasswd = "tratap60";                                     // Database password
+    $NAMA_WEB = "http://www.yourwebsite.com";                 // Website name
+	$ADMIN_EMAIL = "admin@yourwebsite.com";                // Admin's email
+ 	$ADMIN_NAME1 = "Your MLM Website";
 	$ADMIN_NAME = "demo";                              // Admin's login ID
 	$ADMIN_PASS = "1111";                               // Admin's password
 	$PAGE_BG_COLOR = "#FFFFFF";                         // Page background color
@@ -69,7 +69,7 @@ function verifyUser()
 		global $username, $password;
 		if( session_is_registered( "username" ) && session_is_registered( "password" ) )
 		{
-						
+
 			$result=mysql_query( "SELECT username, passwd FROM member WHERE username='$username' AND BINARY passwd='$password'" ) or error( "Login failed, please contact <a href=\"mailto:$ADMIN_EMAIL\">adminstrator</a>" ) ;
 			if( mysql_num_rows( $result ) == 1 ) return true;
 		}
@@ -86,8 +86,8 @@ function verifyAdmin()
 				return true;
 		}
 		return false;
-	}	
-	
+	}
+
 
 function sentMail( $from, $to, $subject, $body )
 	{
@@ -98,7 +98,7 @@ function sentMail( $from, $to, $subject, $body )
 		if( $result ) return true;
 		else return false;
 	}
-	
+
 function displayHeader( $title = "" )
 	{
 		global $ADVT_NAME, $PAGE_BG_COLOR, $PAGE_BG_IMAGE;
@@ -109,16 +109,16 @@ function displayHeader( $title = "" )
 		echo "</head>\n\n";
 		echo "<body bgcolor=\"$PAGE_BG_COLOR\" background=\"$PAGE_BG_IMAGE\">\n\n";
 		echo "<center><h2>$ADVT_NAME</h2></center>\n";
-	}	
+	}
 
 function displayFooter()
 	{
-		echo "<p align=\"center\"><a href=\"http://www.klikabadi.com\" target=\"_blank\"><img src=\"./powered_klik.jpg\" border=\"0\" alt=\"Powered by klikabadi.com\"></a></p>\n";
-		echo "<p align=\"center\"><small>Copyright (c)  <a href=\"http://www.klikabadi.com\">klikabadi.com</a></small></p>\n\n";
+		echo "<p align=\"center\"><a href=\"http://www.digidzine.com\" target=\"_blank\"><img src=\"./powered_klik.jpg\" border=\"0\" alt=\"Powered by digiDzine.com\"></a></p>\n";
+		echo "<p align=\"center\"><small>Copyright (c)  <a href=\"http://www.digidzine.com\">digidzine.com</a></small></p>\n\n";
 		echo "</body>\n";
 		echo "</html>\n";
 		exit;
-	}	
+	}
 
 
 ?>

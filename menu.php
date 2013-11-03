@@ -2,11 +2,13 @@
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
-<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Home</title>
-<style fprolloverstyle>A:hover {color: #FF0000; font-weight: bold}
+<style fprolloverstyle>
+a:hover {
+    color: #FF0000;
+    font-weight: bold;
+}
 </style>
 </head>
 
@@ -18,7 +20,7 @@
     <tr>
       <td width="161">
       <p align="center" style="margin-top: 0; margin-bottom: 0"><b>
-      <font face="Verdana" style="font-size: 8pt">IP Add Komputer anda :</font></b></p>
+      <font face="Verdana" style="font-size: 8pt">Your IP:</font></b></p>
       <p align="center" style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" style="font-size: 8pt">&nbsp;<? echo "$session_ip" ?></font></p>
       <p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</td>
@@ -43,7 +45,7 @@
       <td width="159" align="left">
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">-
-      <a style="text-decoration: none" href="produk.php">Produk</a></font></td>
+      <a style="text-decoration: none" href="produk.php">Product</a></font></td>
     </tr>
     <tr>
       <td width="159" align="left"><hr color="#000000" size="1"></td>
@@ -61,7 +63,7 @@
       <td width="159" align="left">
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">-
-      <a style="text-decoration: none" href="strategi.php">Strategi</a></font></td>
+      <a style="text-decoration: none" href="strategi.php">Strategy</a></font></td>
     </tr>
     <tr>
       <td width="159" align="left"><hr color="#000000" size="1"></td>
@@ -71,7 +73,7 @@
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">- </font>
       <a href="fasilitas.php" style="text-decoration: none">
-      <font face="Verdana" size="2">Fasilitas</font></a></td>
+      <font face="Verdana" size="2">Facility</font></a></td>
     </tr>
     <tr>
       <td width="159" align="left"><hr color="#000000" size="1"></td>
@@ -80,7 +82,7 @@
       <td width="159" align="left">
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">-
-      <a href="pendaftaran.php" style="text-decoration: none">Pendaftaran</a></font></td>
+      <a href="pendaftaran.php" style="text-decoration: none">Register</a></font></td>
     </tr>
     <tr>
       <td width="159" align="left"><hr color="#000000" size="1"></td>
@@ -89,7 +91,7 @@
       <td width="159" align="left">
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">-
-      <a href="kontak.php" style="text-decoration: none">Kontak Kami</a></font></td>
+      <a href="kontak.php" style="text-decoration: none">Contact Us</a></font></td>
     </tr>
     <tr>
       <td width="159" align="left"><hr color="#000000" size="1"></td>
@@ -98,7 +100,7 @@
       <td width="159" align="left">
       <p style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">-
-      <a style="text-decoration: none" href="news.php">News/Berita</a></font></td>
+      <a style="text-decoration: none" href="news.php">News</a></font></td>
     </tr>
     </table>
   </center>
@@ -116,7 +118,7 @@
     </tr>
     <tr>
     <td width="185" height="92" align="center">
-      
+
       <form action="member2.php" method="post">
                 <table style="border-collapse: collapse" height="90" cellSpacing="0" cellPadding="0" width="102%" border="1" bordercolor="#3366CC" bordercolorlight="#3366CC" bordercolordark="#000080">
               <tr>
@@ -159,7 +161,7 @@
       <p align="center" style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" size="2">Ambil dengan email anda</font><font face="Verdana">&nbsp;
       </font>
-      
+
       <form action="lupa_password.php" method="post">
                 <table style="border-collapse: collapse" height="78" cellSpacing="0" cellPadding="0" width="102%" border="0">
               <tr>

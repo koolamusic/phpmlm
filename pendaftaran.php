@@ -1,33 +1,39 @@
-<?
-require( "cek.php" );
+<?php
+require("cek.php");
 ?>
 
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD>
+<html>
+<head>
 <meta http-equiv="Content-Language" content="en-us">
-<title>.: NETWORK INDONESIA :.</title>
-<META content=Panjianom name=Author>
-<META 
-content="Dapatkan uang duit dollar atau penghasilan abadi tiap bulan dari MLM bisa juga gratis atau free." 
-name=Keywords>
-<META 
-content="tutorial situs dalam bahasa indonesia, membahas teknik-teknik mencari uang secara online melalui internet." 
-name=Description>
-<META http-equiv=robots content="index, follow">
-<META http-equiv=rating content=general>
-<META content="Microsoft FrontPage 5.0" name=GENERATOR></HEAD>
+<title>.: Your MLM Website :.</title>
+<meta content=Panjianom name=Author>
+<meta content="your keywords, your keywords here" name=Keywords>
+<meta content="your description here." name=Description>
+<meta http-equiv=robots content="index, follow">
+<meta http-equiv=rating content=general>
+</head>
 
-<STYLE>BODY {
-	SCROLLBAR-FACE-COLOR: #006699; SCROLLBAR-HIGHLIGHT-COLOR: #CC3300; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #006699; SCROLLBAR-ARROW-COLOR: #ffffff ; SCROLLBAR-TRACK-COLOR: #0099CC; SCROLLBAR-DARKSHADOW-COLOR: #000000; SCROLLBAR-BASE-COLOR: #848ea9}
+<style>
+body {
+    scrollbar-face-color: #006699;
+    scrollbar-highlight-color: #cc3300;
+    scrollbar-shadow-color: #000000;
+    scrollbar-3dlight-color: #006699;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-track-color: #0099cc;
+    scrollbar-darkshadow-color: #000000;
+    scrollbar-base-color: #848ea9;
+}
 .lnk1:hover {
-	COLOR: #0000fa; TEXT-DECORATION: none
+    color: #0000fa;
+    text-decoration: none;
 }
 .lnk:link {
-	COLOR: #ffff00; TEXT-DECORATION: none
+    color: #ffff00;
+    text-decoration: none;
 }
-
-</STYLE>
+</style>
 
 <body topmargin="0" leftmargin="0">
 
@@ -37,8 +43,8 @@ name=Description>
     <tr>
       <td>
       <p align="center">
-   
-      <? include "banner.php"; ?>
+
+      <img border="0" src="images/banner.jpg" width="780" height="154"></p>
       </td>
     </tr>
     <tr>
@@ -49,10 +55,10 @@ name=Description>
           <tr>
             <td width="207" valign="top">
             <p style="margin-top: 0; margin-bottom: 0" align="center">
-            <font face="Verdana" style="font-weight: 700" size="2" color="#000080">..:: 
+            <font face="Verdana" style="font-weight: 700" size="2" color="#000080">..::
             MENU UTAMA ::..</font></p>
             <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;
-            
+
             <? include "menu.php"; ?>
             </p>
             <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;</p>
@@ -83,14 +89,14 @@ name=Description>
                           <font face="Verdana" style="font-size: 8pt">Blabla ...</font></li>
                           <li>
                           <p style="margin-top: 0; margin-bottom: 0">
-                          <font face="Verdana" style="font-size: 8pt">Blablabla 
+                          <font face="Verdana" style="font-size: 8pt">Blablabla
                           ...</font></li>
                           <li>
                           <p style="margin-top: 0; margin-bottom: 0">
                           <font face="Verdana" style="font-size: 8pt">
                           Blablablabla......</font></li>
                         </ul>
-                  
+
                     <form action="pendaftaran2.php" method="post">
             <div align="center">
               <table borderColor="#666666" height="294" cellSpacing="0" cellPadding="6" width="491" border="1">
@@ -127,7 +133,7 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="1" bgcolor="#FFFF99">
-                        <b><font face="Verdana" size="1" color="#FF0000">Data 
+                        <b><font face="Verdana" size="1" color="#FF0000">Data
                         Pendaftar</font></b></td>
                         <td width="324" height="1" bgcolor="#FFFF99">&nbsp;</td>
                       </tr>
@@ -161,7 +167,7 @@ name=Description>
                         <td width="302" height="25"><font face="Verdana">
                         <textarea rows="3" name="alamat" cols="30"></textarea>&nbsp;</font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="25">
                         <b><font face="Verdana" size="1">Kota :</font></b></td>
@@ -180,7 +186,7 @@ name=Description>
                         <td width="324" height="25"><font face="Verdana">
                         <input size="20" name="nomor_telp"> </font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         </td>
@@ -188,11 +194,11 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="1" bgcolor="#FFFF99">
-                        <b><font face="Verdana" size="1" color="#FF0000">Data 
+                        <b><font face="Verdana" size="1" color="#FF0000">Data
                         Pasangan (jika ada)</font></b></td>
                         <td width="324" height="1" bgcolor="#FFFF99">&nbsp;</td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         <b><font face="Verdana" size="1">Jenis Hubungan :</font></b></td>
@@ -208,7 +214,7 @@ name=Description>
                         <td width="324" height="1"><font face="Verdana">
                         <input size="30" name="nama_pasangan">&nbsp;</font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         </td>
@@ -216,7 +222,7 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="1" bgcolor="#FFFF99">
-                        <b><font face="Verdana" size="1" color="#FF0000">Data 
+                        <b><font face="Verdana" size="1" color="#FF0000">Data
                         Penunjang</font></b></td>
                         <td width="324" height="1" bgcolor="#FFFF99">&nbsp;</td>
                       </tr>
@@ -246,12 +252,12 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="25">
-                        <b><font face="Verdana" size="1">Hubungan dg Ahli Waris 
+                        <b><font face="Verdana" size="1">Hubungan dg Ahli Waris
                         :</font></b></td>
                         <td width="324" height="25"><font face="Verdana">
                         <input size="15" name="hub_ahli_waris"> </font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         </td>
@@ -259,7 +265,7 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="1" bgcolor="#FFFF99">
-                        <b><font face="Verdana" size="1" color="#FF0000">Data 
+                        <b><font face="Verdana" size="1" color="#FF0000">Data
                         Bank</font></b></td>
                         <td width="324" height="1" bgcolor="#FFFF99">&nbsp;</td>
                       </tr>
@@ -287,7 +293,7 @@ name=Description>
                         <td width="324" height="25"><font face="Verdana">
                         <input size="15" name="nomor_rek"> </font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         </td>
@@ -295,11 +301,11 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="168" height="2" bgcolor="#FFFF99">
-                        <b><font face="Verdana" size="1" color="#FF0000">Data 
+                        <b><font face="Verdana" size="1" color="#FF0000">Data
                         Sponsor</font></b></td>
                         <td width="324" height="2" bgcolor="#FFFF99">&nbsp;</td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="22">
                         <b><font face="Verdana" size="1">Nama Sponsor : </font>
@@ -308,21 +314,21 @@ name=Description>
                         <font face="Verdana" size="1"><font color="#000080"><b>
                         <? echo "$session_nama_sponsor" ?></b></font> </font></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="21">
                         <b><font face="Verdana" size="1">ID Sponsor :</font></b></td>
                         <td width="324" height="21"><b>
                         <font face="Verdana" size="1" color="#000080"><? echo "$session_id_sponsor" ?></font></b></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="19">
                         <b><font face="Verdana" size="1">Username Sponsor :</font></b></td>
                         <td width="324" height="19"><b>
                         <font face="Verdana" size="1" color="#000080"><? echo "$session_username_sponsor" ?></font></b></td>
                       </tr>
-                      
+
                       <tr>
                         <td width="168" height="1">
                         </td>
@@ -334,9 +340,9 @@ name=Description>
                       </tr>
                       <tr>
                         <td width="447" colSpan="2" height="1">
-                        
-                                             
-                        
+
+
+
                         <p align="center"><font face="Verdana">
                         <input type="submit" value="KIRIM PENDAFTARAN" name="Submit">
                         </font></td>
@@ -353,8 +359,8 @@ name=Description>
             </div>
             </form>
 
-                  
-                  
+
+
                   <p style="margin-top: 0; margin-bottom: 0" align="center">&nbsp;</td>
               </tr>
              </table>
@@ -373,7 +379,7 @@ name=Description>
     <tr>
       <td bgcolor="#6D93A0">
       <p align="center" style="margin-top: 0; margin-bottom: 0">
-      <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Copyright (c) 
+      <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Copyright (c)
       2005 Nama Bisnis Anda</font></p>
       <p align="center" style="margin-top: 0; margin-bottom: 0">
       <font face="Verdana" style="font-size: 8pt" color="#FFFFFF">Powered by
