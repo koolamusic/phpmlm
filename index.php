@@ -12,6 +12,9 @@ require("cek.php");
 <meta content="your description here." name=Description>
 <meta http-equiv=robots content="index, follow">
 <meta http-equiv=rating content=general>
+
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
 </head>
 
 <style>

@@ -103,7 +103,7 @@ body {
       </td>
     </tr>
     <tr>
-      <td background="bg3.jpg">&nbsp;</td>
+      <td background="images/bg3.jpg">&nbsp;</td>
     </tr>
     <tr>
       <td bgcolor="#6D93A0">

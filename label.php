@@ -105,7 +105,7 @@ function displayHeader( $title = "" )
 		echo "\n<html>\n";
 		echo "<head>\n";
 		echo "<title>$title</title>\n";
-		echo "<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\">\n";
+		echo "<link rel=\"stylesheet\" href=\"css/style.css\" type=\"text/css\">\n";
 		echo "</head>\n\n";
 		echo "<body bgcolor=\"$PAGE_BG_COLOR\" background=\"$PAGE_BG_IMAGE\">\n\n";
 		echo "<center><h2>$ADVT_NAME</h2></center>\n";
