@@ -1,6 +1,12 @@
 <?php
 require("label.php");
-session_start();
+
+if (version_compare(PHP_VERSION, '5.4.0', '<'))
+{
+    if(session_id() == '')
+        {
+            session_start();
+
 $ip = $_SERVER['REMOTE_ADDR'];
 if(isset($id))
     {
@@ -56,4 +62,14 @@ if(isset($id))
                     return true;
                 }
             }
+        }
+    }
+    else
+    {
+        if (session_status() == PHP_SESSION_NONE)
+        {
+            session_start();
+        }
+    }
+}
 ?>
