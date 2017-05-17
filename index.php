@@ -2,9 +2,11 @@
 require("cek.php");
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Language" content="en-us">
 <title>.: Your MLM Website :.</title>
 <meta content=Panjianom name=Author>
