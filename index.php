@@ -16,28 +16,6 @@ require("cek.php");
 <link rel="stylesheet" href="/css/style.css" type="text/css">
 
 </head>
-
-<style>
-body {
-    scrollbar-face-color: #006699;
-    scrollbar-highlight-color: #cc3300;
-    scrollbar-shadow-color: #000000;
-    scrollbar-3dlight-color: #006699;
-    scrollbar-arrow-color: #ffffff;
-    scrollbar-track-color: #0099cc;
-    scrollbar-darkshadow-color: #000000;
-    scrollbar-base-color: #848ea9;
-}
-.lnk1:hover {
-    color: #0000fa;
-    text-decoration: none;
-}
-.lnk:link {
-    color: #ffff00;
-    text-decoration: none;
-}
-</style>
-
 <body topmargin="0" leftmargin="0">
     <div align="center">
         <center>
