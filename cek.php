@@ -1,7 +1,7 @@
 <?php
 require("label.php");
 session_start();
-$ip = $REMOTE_ADDR;
+$ip = $_SERVER['REMOTE_ADDR'];
 if(isset($id))
     {
         dbConnect();
